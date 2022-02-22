@@ -2,7 +2,7 @@
 function search_code() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();
-    let x = document.getElementsByClassName('lang-js');
+    let x = document.getElementsByClassName('langcode');
 
     for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input)) {

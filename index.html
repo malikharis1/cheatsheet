@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cabin&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="prism/prism.css" />
     <link rel="stylesheet" href="search.css" />
     <link rel="icon" href="icon/icon.png">
@@ -20,11 +21,24 @@
   </head>
   <body>
     <nav>
-      <span class="logo"
+
+      <ul class="nav-bar">
+        <span class="logo"
         ><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"
       /></span>
-      <div class="content">This JAVASCRIPT Cheatsheet is For You!</div>
+        <li><a href="">C</a> </li>
+        <li><a href="">C++</a> </li>
+        <li><a href="">PHP</a> </li>
+        <li><a href="#">JAVASCRIPT</a> </li>
+        <li><a href="HTML.html">HTML</a> </li>
+        <li><a href="">CSS</a> </li>
+
+
+     
+
     </nav>
+      <div class="content">This JAVASCRIPT Cheatsheet is For You!</div>
+      </ul>
     <!-- input tag -->
     <section id="main-content">
       <div class="search-function">
@@ -40,7 +54,7 @@
       <div class="container"    >
       
           <ol  id="hello" >
-          <div class="lang-js">
+          <div class="langcode">
             <li>Console in js</li>
             <pre class="language-js"><code>console.log("hello world"); 
 console.log(2 + 2); 
@@ -56,7 +70,7 @@ console.error("Error messages");
 console.clear();  //clear console
 </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Let & Const</li>
             <pre class="language-js"><code>// let & const
 let age;
@@ -67,7 +81,7 @@ const section = "9th";
 // section = "10th" this will through an error
 console.log(section);</code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Datatype</li>
             <pre
               class="language-js"
@@ -102,7 +116,7 @@ let date = new Date();
 console.log(typeof date);
               </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Type conversion</li>
             <pre class="language-js"><code>let myVAr=10;
 console.log(myVAr, (typeof myVAr));
@@ -122,7 +136,7 @@ let coersion = '10';
 let coersion2 = 20;
 console.log(coersion + coersion2);//addition concatinate</code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Strings</li>
             <pre class="language-js"><code> //strings
 let namee = "haris";
@@ -154,7 +168,7 @@ console.log(newName.replace('strings', 'replaced'));
 let myHtml = ` <p>hello ${newName} template litrals </p>`;
 document.body.innerHTML = myHtml;</code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Arrays</li>
             <pre class="language-js"><code>let marks = [33, 22, 44, 66, 77, 99];
 const fruits = ['orange', 'apple', 'banana'];
@@ -198,7 +212,7 @@ console.log(myObj['markas']); //show markas inobj
 console.log(myObj.name); //show name in obj 
 console.log(myObj['name']); //show name in obj </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>if Else and Or And</li>
             <pre class="language-js"><code>
 const age = 23;
@@ -238,14 +252,14 @@ if (driver || khaberkos) {  //OR = atleast one condition  should be true
 }
               }</code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>
               Ternaly operator/li>
               <pre class="language-js"><code>const haris = 22;
 console.log(haris == 22 ? 'haris is 22' : 'haris is not 22');</code></pre>
             </li>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>switchcases</li>
             <pre class="language-js"><code>switch (haris) {
 case 20:
@@ -261,7 +275,7 @@ default:
 console.log("age is unknown");
 break;</code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Loops for,while,dowhile,foreach,forin</li>
             <pre class="language-js"><code>      let a = 1;
 while (a < 10) { //while loop
@@ -296,7 +310,7 @@ for (let key in obj) {
               }
               </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Functions</li>
             <pre class="language-js"><code> 
 function greet(name = "meezan") {
@@ -315,7 +329,7 @@ console.log(val);
 //let is block scope
               </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>DOM</li>
             <pre class="language-js"><code> console.log("Welcome to DOM");
 let a = document;
@@ -329,7 +343,7 @@ Array.from(a).forEach(function (element) {
 console.log(a);
               </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>DOM selectors</li>
             <pre class="language-js"><code>  //Single
 let element = document.getElementById('myfirst');
@@ -356,7 +370,7 @@ Array.from(elem).forEach(element => {
 console.log(elem);//[0],[1] etc
               </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Child,Parent,SiblingTransversing of a DOM</li>
             <pre
               class="language-js"
@@ -380,7 +394,7 @@ console.log(container.firstElementChild.nextElementSibling); //next element chil
 console.log(container.firstElementChild.nextElementSibling.nextElementSibling); //next element child's sibling 
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Create ,Replace and Remove</li>
             <pre class="language-js"><code> let element = document.createElement("a");
 element.className = "created";
@@ -411,7 +425,7 @@ remchild.remove();
 repchild.removeChild(remchild3);
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Events</li>
             <pre class="language-js"><code>document.getElementById('heading').addEventListener('click', function (e) { //mouseover is aslo a event listner
 console.log("you have click the heading");
@@ -431,7 +445,7 @@ console.log(varr)
 });
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>Local Storage & Session Storage</li>
             <pre class="language-js"><code>//key and value
 localStorage.setItem('Name', 'haris');
@@ -452,17 +466,17 @@ console.log(pubgary);
 //replace localStorage with session and it will wotk as a session without any error
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>DOM selectors</li>
             <pre class="language-js"><code>
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>DOM selectors</li>
             <pre class="language-js"><code>
             </code></pre>
           </div>
-          <div class="lang-js">
+          <div class="langcode">
             <li>DOM selectors</li>
             <pre class="language-js"><code>
             </code></pre>
