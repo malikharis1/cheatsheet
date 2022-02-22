@@ -13,3 +13,9 @@ function search_code() {
         }
     }
 }
+let getE = document.getElementById('hello');
+let onSearch = document.getElementById('searchbar');
+onSearch.addEventListener('click', function (e) {
+    getE.className = 'new';
+    e.preventDefault()
+});
