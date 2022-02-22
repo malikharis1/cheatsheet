@@ -112,6 +112,9 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
   }
+  .foot {
+    font-size: 1.2rem;
+  }
 }
 .haris {
   list-style: none;
