@@ -74,10 +74,15 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
   background-color: #3f3351;
-  min-height: 4.7rem;
-  min-height: 4rem;
-  padding: 2rem;
+  min-height: 2rem;
+  padding: 1rem;
   flex-wrap: wrap;
+  font-size: 2rem;
+}
+.foot {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
 @media screen and (max-width: 932px) {
   .container {
