@@ -26,10 +26,6 @@ nav ul {
   padding: 1rem;
   flex-wrap: wrap;
   text-align: center;
-  font-family: "Potta One", cursive;
-  font-family: "Advent Pro", sans-serif;
-  font-family: "Inconsolata", monospace;
-  font-family: "PT Serif", serif;
   font-family: "Cabin", sans-serif;
   font-size: 1.3rem;
 }
@@ -135,7 +131,6 @@ input[type="text"] {
     font-size: 1.2rem;
   }
   .langcode li {
-    font-family: "Bebas Neue", cursive;
     font-weight: bold;
   }
 }
