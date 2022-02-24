@@ -130,9 +130,6 @@ input[type="text"] {
   .foot {
     font-size: 1.2rem;
   }
-  .langcode li {
-    font-weight: bold;
-  }
 }
 .haris {
   list-style: none;
