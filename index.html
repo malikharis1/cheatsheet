@@ -249,7 +249,7 @@ if (driver || khaberkos) {  //OR = atleast one condition  should be true
           </div>
           <div class="langcode">
             <li>
-              Ternaly operator/li>
+              Ternary operator</li>
               <pre class="language-js"><code>const haris = 22;
 console.log(haris == 22 ? 'haris is 22' : 'haris is not 22');</code></pre>
             </li>
@@ -279,12 +279,10 @@ while (a < 10) { //while loop
 }
 for (a = 10; a < 20; a++) { //for loop
     console.log(a);
-
 }
 do { //do-while loop
     console.log(a)
     a++;
-
 } while (a < 10);
 //foreach
 let arr = [1, 2, 3, 4, 5];
@@ -307,9 +305,8 @@ for (let key in obj) {
           </div>
           <div class="langcode">
             <li>Functions</li>
-            <pre class="language-js"><code> 
-function greet(name = "meezan") {
-    console.log(`${name} Happy Birthday`);
+            <pre class="language-js"><code>function greet(name = "meezan") {
+console.log(`${name} Happy Birthday`);
 }
 let name = 'haris';
 greet();
@@ -326,7 +323,7 @@ console.log(val);
           </div>
           <div class="langcode">
             <li>DOM</li>
-            <pre class="language-js"><code> console.log("Welcome to DOM");
+            <pre class="language-js"><code>console.log("Welcome to DOM");
 let a = document;
 // a = document.form[0];
 a = document.links;
@@ -335,12 +332,11 @@ a = document.body;
 Array.from(a).forEach(function (element) {
     console.log(element);
 });
-console.log(a);
-              </code></pre>
+console.log(a);</code></pre>
           </div>
           <div class="langcode">
             <li>DOM selectors</li>
-            <pre class="language-js"><code>  //Single
+            <pre class="language-js"><code>//Single
 let element = document.getElementById('myfirst');
 // element = element.className;
 // element = element.childNodes;
@@ -369,7 +365,7 @@ console.log(elem);//[0],[1] etc
             <li>Child,Parent,SiblingTransversing of a DOM</li>
             <pre
               class="language-js"
-            ><code> let cont = document.querySelector(".container");
+            ><code>let cont = document.querySelector(".container");
 console.log(cont.childNodes); //it counts everthing even comments
 console.log(cont.children); //so we use this instead of childNodes
 let nodeName = cont.childNodes[1].nodeName;
@@ -386,12 +382,11 @@ console.log(container.childElementCount); // Count of child elements (children)
 console.log(container.firstElementChild.parentNode); //parent of this child
 console.log(container.firstElementChild.nextSibling); //next child
 console.log(container.firstElementChild.nextElementSibling); //next element child
-console.log(container.firstElementChild.nextElementSibling.nextElementSibling); //next element child's sibling 
-            </code></pre>
+console.log(container.firstElementChild.nextElementSibling.nextElementSibling); //next element child's sibling </code></pre>
           </div>
           <div class="langcode">
             <li>Create ,Replace and Remove</li>
-            <pre class="language-js"><code> let element = document.createElement("a");
+            <pre class="language-js"><code>let element = document.createElement("a");
 element.className = "created";
 element.setAttribute('title', 'created-title');
 element.setAttribute('href', '#');
@@ -417,8 +412,7 @@ let remchild3 = document.querySelector('#rep3');
 //remove
 repchild.replaceChild(repchild2, repchild1);
 remchild.remove();
-repchild.removeChild(remchild3);
-            </code></pre>
+repchild.removeChild(remchild3);</code></pre>
           </div>
           <div class="langcode">
             <li>Events</li>
@@ -437,8 +431,7 @@ varr = e.clientX;
 varr = e.offsetX;
 varr = e.offsetY;
 console.log(varr)
-});
-            </code></pre>
+});</code></pre>
           </div>
           <div class="langcode">
             <li>Local Storage & Session Storage</li>
@@ -458,9 +451,10 @@ let pubgary = JSON.parse(localStorage.getItem('pubg')); //takes string and retur
 console.log(pubgary);
 //session storage
 // clears data after logged out
-//replace localStorage with session and it will wotk as a session without any error
-            </code></pre>
+//replace localStorage with session and it will wotk as a session without any error</code></pre>
           </div>
+          <!--   
+
           <div class="langcode">
             <li>DOM selectors</li>
             <pre class="language-js"><code>
@@ -476,13 +470,15 @@ console.log(pubgary);
             <pre class="language-js"><code>
             </code></pre>
           </div>
-        </ul>
+          -->
+
+        </ol>
       </div>
     </section>
     <footer>
       <div class="foot">
-          ©2020-22. All Rights Reserved.Designed by  &nbsp; 
-             <a href="https://harismalik.netlify.app/"> <span> <u> Haris Malik</u></span></a>
+        Copyright © 2022 Designed by  &nbsp; 
+             <a href="https://harismalik.netlify.app/" target="_blank"> <span> <u> Haris Malik</u></span></a>
       </div>
     </footer>
     <script src="prism/prism (1).js"></script>
