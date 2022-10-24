@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cabin&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Bebas+Neue&family=Cabin&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Patrick+Hand&family=Potta+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism/prism.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link rel="icon" href="icon/icon.png">
+    <meta name="description"
+        content="Hi, my name is Haris Malik and i created this cheat sheet to help you in programming. This website will help you to show the correct syntax for your code and help you to write a better code">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Visual Basic Cheatsheet by Haris Malik</title>
+</head>
+
+<body>
+    <div class="main-main">
+
+        <div class="topnav">
+            <a href="#home" class="active"> <span class="logo"><img
+                        src="https://img.icons8.com/color/48/000000/vb.png" /></span></a>
+            <div id="myLinks">
+                <a href="./c.html">C</a>
+                <a href="./cplus.html">C++</a>
+                <a href="./index.html">JAVASCRIPT</a>
+                <a href="./HTML.html">HTML</a>
+                <a href="./css.html">CSS</a>
+                <a href="./vb.html">Visual Basic</a>
+                <a href="./TallyERP9.html">Tally ERP 9 </a>
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="content">This Visual Basic Cheatsheet is For You!</div>
+    </ul>
+    <!-- input tag -->
+    <section id="main-content">
+        <div class="search-function">
+            <input id="searchbar" onkeyup="search_code()" type="text" name="search" placeholder="Search..." />
+        </div>
+        <div class="container">
+
+            <ol id="hello">
+                <div class="langcode">
+                    <li>Sample Program
+                    </li>
+                    <pre class="language-cpp"><code>Public Module Program
+ Public Sub Main(args() As string)
+Console.WriteLine("Hello, World!")
+End Sub
+ End Module</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Example
+                        <pre class="language-cpp"><code>Dim byteVar As Byte
+Dim intVar As Integer = 100
+Dim doubleVar As Double
+Dim dateVar As Date 
+Dim charVar As Char = "A"
+Dim strVar As String = "OneCompiler"
+Dim boolVar As Boolean = TRUEt </code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Constants</li>
+                    <pre class="language-cpp"><code>[ < attributeList > ] [ accessModifier ] [ Shadows ] Const constantName [ As datatype ] = value</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Operators</li>
+                    <pre class="language-cpp"><code>Operator type	      Description
+Arithmetic Operator	+ , - , * , / , , MOD, ^
+Relational Operator	< , > , <= , >= , =
+BitWise Operator	AND, OR, XOR, NOT, AndAlso, OrElse, isTrue, isFalse
+BitWise Shift Operator	AND, OR, XOR, NOT, << , >>
+Logical Operator	&& , ||, !
+Assignment Operator	= , += , -= , *= , /=, = , %= ,<<=,>>=, &=, ^=
+Miscellaneous Operator	AddressOf, Await, GetType</code>
+          </pre>
+                </div>
+                <div class="langcode">
+                    <li>Strings</li>
+                    <pre class="language-cpp"><code>Dim variableName As String
+Dim Name As String = "harismalik"
+          </code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Conditional Statements</li>
+                    <pre class="language-cpp"><code>If condition-expression Then 
+            'code
+        End If
+
+If(conditional-expression)Then
+   'code if the conditional-expression is true 
+Else
+  'code if the conditional-expression is false 
+End If
+
+
+If(conditional-expression)Then
+   'code if the above conditional-expression is true 
+Else If(conditional-expression) Then
+        'code if the above conditional-expression is true 
+    Else
+        'code if the above conditional-expression is false 
+End If
+
+
+
+If(conditional-expression)Then
+   'code if the above conditional-expression is true
+   If(conditional-expression)Then
+         'code if the above conditional-expression is true 
+   End If
+End If
+    </code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Select Cases</li>
+
+                    <pre class="language-cpp"><code>Select [ Case ] expression
+[ Case expressionlist
+    'code ]
+[ Case Else
+    'code ]
+ End Select</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Loops</li>
+                </div>
+
+                <div class="langcode">
+                    <li> For..Next
+                    </li>
+                    <pre class="language-cpp"><code>For counter [ As datatype ] = begin To end [ Step step ]
+'code
+[ Continue For ]
+'code
+[ Exit For ]
+'code
+ Next [ counter ]</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>For..Each
+                    </li>
+                    <p>It is used to concatenate two strings</p>
+                    <pre class="language-cpp"><code>For Each element [ As datatype ] In group
+'code
+[ Continue For ]
+'code
+[ Exit For ]
+'code
+Next [ element ]</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>While</li>
+                    <pre class="language-cpp"><code>While conditional-expression
+'Code 
+[ Continue While ]
+'Code
+[ Exit While ]
+'Code
+End While</code>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>DO -while</li>
+                    <pre class="language-cpp"><code>Do { While | Until } conditional-expression
+'Code
+[ Continue Do ]
+ 'Code
+[ Exit Do ]
+'Code
+Loop</code>
+</pre>
+                </div>
+
+                <div class="langcode">
+                    <li>Functions </li>
+                    <p>Functions consists of a set of statements which perform a sepcific functionality and they return
+                        a value when they are called.
+
+                    </p>
+                </div>
+                <div class="langcode">
+                    <pre class="language-cpp"><code>[accessModifiers] Function functionName [(parameterList)] As returnType
+'code
+End Functioncode>
+</pre>
+                </div>
+                <div class="langcode">
+                    <li>Sub-Procedures
+                    </li>
+                    <p>Sub-procedures are similar to functions but they don't return any value.
+
+                    </p>
+                    <pre class="language-cpp"><code>Sub ProcedureName (parameterList)
+'Code
+End Sub</code>
+</pre>
+                </div>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            Copyright © 2022 Designed by &nbsp;
+            <a href="https://harismalik.netlify.app/" target="_blank"> <span> <u> Haris Malik</u></span></a>
+        </div>
+    </footer>
+    <script src="prism/prism (1).js"></script>
+    <script src="search.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

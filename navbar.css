@@ -1,0 +1,58 @@
+.topnav {
+  display: block;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #332d3a;
+  position: relative;
+  
+}
+
+.topnav #myLinks {
+  display: none;
+  animation-name: opa;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  border: 1px solid rgb(121, 119, 119);
+  transition: all 200ms ease-in;
+  
+}
+.topnav a:hover {
+  letter-spacing: 1px;
+  color: #9776ba;
+}
+
+.topnav a.icon {
+    
+  position: absolute;
+  border: none;
+  right: 0;
+  top: 0;
+  font-size: 2rem !important;
+}
+
+.main-main {
+  background-color: #3f3351;
+}
+i {
+  font-size: 2.2rem !important;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
