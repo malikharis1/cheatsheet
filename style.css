@@ -83,7 +83,6 @@ input[type="text"] {
   margin: auto;
 }
 .foot {
-
   background-color: #3f3351;
   padding: 1rem;
   flex-wrap: wrap;
@@ -138,12 +137,22 @@ span {
   list-style: none;
 }
 
-
-.foot{
+.foot {
   word-spacing: 0.2rem;
   line-height: 3.3rem;
   min-height: 10vh;
   font-size: 1.4rem;
   text-align: center;
   z-index: 99;
+}
+@media screen and (max-width: 600px) {
+  .foot p{
+    word-spacing: 0.2rem;
+    line-height:2rem;
+    min-height: 8vh;
+    font-size: 1rem;
+    text-align: center;
+    z-index: 99;
+    padding: 0;
+  }
 }
