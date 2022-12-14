@@ -83,14 +83,10 @@ input[type="text"] {
   margin: auto;
 }
 .foot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-color: #3f3351;
-  min-height: 2rem;
   padding: 1rem;
   flex-wrap: wrap;
-  font-size: 2rem;
 }
 .foot {
   position: fixed;
@@ -140,4 +136,14 @@ span {
 }
 .new {
   list-style: none;
+}
+
+
+.foot{
+  word-spacing: 0.2rem;
+  line-height: 3.3rem;
+  min-height: 10vh;
+  font-size: 1.4rem;
+  text-align: center;
+  z-index: 99;
 }
