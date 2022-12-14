@@ -5,7 +5,6 @@
   overflow: hidden;
   background-color: #332d3a;
   position: relative;
-  
 }
 
 .topnav #myLinks {
@@ -55,4 +54,12 @@ i {
   100% {
     opacity: 100%;
   }
+}
+@media screen and (max-width: 600px) {
+
+.topnav a {
+  text-align: center;
+  padding: 6px 0 ;
+  font-size: 10px;
+}
 }
