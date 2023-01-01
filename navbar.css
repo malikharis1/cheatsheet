@@ -64,3 +64,24 @@ i {
   padding: 10px 0 ;
 }
 }
+
+#click{
+  padding: 2rem;
+  color: white;
+  text-decoration: underline;
+  line-height: 4rem;
+  word-spacing: 0.1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+}
+.note{
+  padding: 1rem 3rem;
+  background: rgb(86, 123, 153);
+  text-align: center;
+
+}
+#hello{
+  padding-top: 6rem;
+}
