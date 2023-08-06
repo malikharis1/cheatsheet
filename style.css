@@ -198,6 +198,7 @@ span {
   display: inline-block;
   margin-top: 2rem;
   margin-left: 3.2rem;
+  font-size: 1.5rem;
 }
 .main-main {
   background: #1b1e31 !important;
@@ -217,11 +218,11 @@ span {
   }
 
   .n a {
-    font-size: 0.6rem;
+    font-size: 1.1rem;
   }
   .notes-dw div h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
   .notes-dw .n {
     width: 90%;
