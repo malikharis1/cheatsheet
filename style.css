@@ -199,3 +199,21 @@ span {
 .main-main {
   background: #1b1e31 !important;
 }
+.n a {
+  background: #9060d7;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+@media screen and (max-width: 600px) {
+  .notes p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .notes header {
+    width: 100%;
+  }
+
+  .n a {
+    font-size: 0.6rem;
+  }
+}
