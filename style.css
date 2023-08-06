@@ -20,7 +20,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3f3351;
+  background-color: #9060d7;
   min-height: 4.7rem;
   min-height: 4rem;
   padding: 1rem;
@@ -60,7 +60,7 @@ ul {
   list-style: none;
 }
 body {
-  background: #1f1d36;
+  background: #03001cea;
   color: white;
 }
 #searchbar {
@@ -83,7 +83,7 @@ input[type="text"] {
   margin: auto;
 }
 .foot {
-  background-color: #3f3351;
+  background-color: #1b1e31;
   padding: 1rem;
   flex-wrap: wrap;
 }
@@ -91,6 +91,13 @@ input[type="text"] {
   position: fixed;
   bottom: 0%;
   width: 100%;
+}
+footer a,
+footer p a {
+  padding: 0.3rem 0;
+  font-size: 1.4rem;
+
+  color: rgb(70, 212, 222);
 }
 /*NAV BAR*/
 
@@ -146,9 +153,9 @@ span {
   z-index: 99;
 }
 @media screen and (max-width: 600px) {
-  .foot p{
+  .foot p {
     word-spacing: 0.2rem;
-    line-height:2rem;
+    line-height: 2rem;
     min-height: 8vh;
     font-size: 1rem;
     text-align: center;
@@ -157,6 +164,38 @@ span {
   }
 }
 
-.click{
-  color:Red;
+.notes {
+  display: flex;
+  justify-content: center;
+}
+.notes header {
+  width: 70%;
+}
+.notes p {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.notes-dw {
+  min-height: 100vh;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notes-dw div h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+.notes-dw .n {
+  padding-top: 2rem;
+}
+.notes-dw .n a {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 3.2rem;
+}
+.main-main {
+  background: #1b1e31 !important;
 }
