@@ -207,6 +207,10 @@ span {
   background: #9060d7;
   font-size: 1rem;
   padding: 1rem 2rem;
+  transition: all 300ms ease-in;
+}
+.n a:hover {
+  background: #9060d77a;
 }
 @media screen and (max-width: 600px) {
   .notes p {
@@ -231,4 +235,12 @@ span {
     margin-top: 0rem;
     padding-top: 2rem;
   }
+  .n p {
+    text-align: center;
+  }
+}
+
+.n:nth-child(5) {
+  margin-bottom: 5rem;
+  min-height: 30vh;
 }
