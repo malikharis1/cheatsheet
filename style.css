@@ -244,3 +244,7 @@ span {
   margin-bottom: 5rem;
   min-height: 30vh;
 }
+
+.icon {
+  margin: 1rem 2rem 0 0;
+}
